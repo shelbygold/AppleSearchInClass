@@ -11,6 +11,8 @@
 		DDCD3C9D2243F1D400B54786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD3C9B2243F1D400B54786 /* Main.storyboard */; };
 		DDCD3C9F2243F1D700B54786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCD3C9E2243F1D700B54786 /* Assets.xcassets */; };
 		DDCD3CA22243F1D700B54786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD3CA02243F1D700B54786 /* LaunchScreen.storyboard */; };
+		DDCD3CAA2243F67300B54786 /* AppStoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD3CA92243F67300B54786 /* AppStoreItem.swift */; };
+		DDCD3CAC224404EB00B54786 /* AppStoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD3CAB224404EB00B54786 /* AppStoreItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DDCD3C9E2243F1D700B54786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDCD3CA12243F1D700B54786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDCD3CA32243F1D700B54786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCD3CA92243F67300B54786 /* AppStoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItem.swift; sourceTree = "<group>"; };
+		DDCD3CAB224404EB00B54786 /* AppStoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				DDCD3C972243F1D400B54786 /* AppDelegate.swift */,
 				DDCD3C9B2243F1D400B54786 /* Main.storyboard */,
+				DDCD3CA92243F67300B54786 /* AppStoreItem.swift */,
+				DDCD3CAB224404EB00B54786 /* AppStoreItemController.swift */,
 				DDCD3C9E2243F1D700B54786 /* Assets.xcassets */,
 				DDCD3CA02243F1D700B54786 /* LaunchScreen.storyboard */,
 				DDCD3CA32243F1D700B54786 /* Info.plist */,
@@ -132,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCD3CAA2243F67300B54786 /* AppStoreItem.swift in Sources */,
+				DDCD3CAC224404EB00B54786 /* AppStoreItemController.swift in Sources */,
 				DDCD3C982243F1D400B54786 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
